@@ -2,10 +2,12 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div >
+    <div className='container'>
+
       <div>
       <Navbar/>
       </div>
@@ -13,6 +15,11 @@ export default function App() {
       <div>
       <Main/>
       </div>
+
+      <div>
+      <Footer/>
+      </div>
+
     </div>
   )
 }
