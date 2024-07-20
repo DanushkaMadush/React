@@ -1,17 +1,18 @@
 
 import './App.css';
-import { Header } from './Header';
-import MainComponent from './MainComponent';
-import Footer from './Footer';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
 
-function Page() {
+export default function App() {
   return (
-    <div>
-      <Header/>
-      <MainComponent/>
-      <Footer/>
+    <div >
+      <div>
+      <Navbar/>
+      </div>
+
+      <div>
+      <Main/>
+      </div>
     </div>
   )
 }
-
-export default Page;
